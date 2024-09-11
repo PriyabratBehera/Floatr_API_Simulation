@@ -1,14 +1,14 @@
-package com.qa.Ouath2.tests;
+package com.qa.ouath2.tests;
 
-import com.spotify.ouath2.api.StatusCode;
-import com.spotify.ouath2.api.applicationApi.PlaylistApi;
-import com.spotify.ouath2.pojo.Playlist;
-import com.spotify.ouath2.utils.DataLoader;
+import com.qa.ouath2.api.StatusCode;
+import com.qa.ouath2.api.applicationApi.PlaylistApi;
+import com.qa.ouath2.pojo.Playlist;
+import com.qa.ouath2.utils.DataLoader;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
-import static com.spotify.ouath2.api.Route.*;
-import static com.spotify.ouath2.api.Route.ORDERS;
+import static com.qa.ouath2.api.Route.*;
+import static com.qa.ouath2.api.Route.ORDERS;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 

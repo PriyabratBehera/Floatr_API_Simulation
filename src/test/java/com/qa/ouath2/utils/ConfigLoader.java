@@ -1,4 +1,4 @@
-package com.qa.Ouath2.utils;
+package com.qa.ouath2.utils;
 
 import java.util.Properties;
 

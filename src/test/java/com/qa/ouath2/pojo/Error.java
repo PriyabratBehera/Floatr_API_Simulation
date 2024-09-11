@@ -1,4 +1,4 @@
-package com.qa.Ouath2.pojo;
+package com.qa.ouath2.pojo;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

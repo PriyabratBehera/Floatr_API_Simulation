@@ -1,4 +1,4 @@
-package com.qa.Ouath2.api;
+package com.qa.ouath2.api;
 
 import io.restassured.http.Header;
 import io.restassured.response.Response;
@@ -7,8 +7,8 @@ import org.joda.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.spotify.ouath2.api.Route.*;
-import static com.spotify.ouath2.api.SpecBuilder.getResponseSpec;
+import static com.qa.ouath2.api.Route.*;
+import static com.qa.ouath2.api.SpecBuilder.getResponseSpec;
 import static io.restassured.RestAssured.given;
 
 public class TokenManager {

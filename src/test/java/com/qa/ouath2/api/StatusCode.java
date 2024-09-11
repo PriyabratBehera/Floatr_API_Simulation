@@ -1,4 +1,4 @@
-package com.qa.Ouath2.api;
+package com.qa.ouath2.api;
 
 public enum StatusCode {
     CODE_200(200,""),

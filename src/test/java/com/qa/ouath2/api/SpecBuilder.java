@@ -1,4 +1,4 @@
-package com.qa.Ouath2.api;
+package com.qa.ouath2.api;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;

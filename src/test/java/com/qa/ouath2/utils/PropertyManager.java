@@ -1,4 +1,4 @@
-package com.qa.Ouath2.utils;
+package com.qa.ouath2.utils;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,7 +9,7 @@ public class PropertyManager {
 
     public Properties getProps() throws IOException {
         InputStream is = null;
-        String propsFileName = "cofig.properties";
+        String propsFileName = "data.properties";
         if (props.isEmpty()) {
             try {
                     is = getClass().getClassLoader().getResourceAsStream(propsFileName);
